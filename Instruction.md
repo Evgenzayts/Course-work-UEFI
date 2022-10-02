@@ -34,7 +34,7 @@
 
 Эти строки нужно изменить:
     
-    ACTIVE_PLATFORM       = MdeModulePkg/MdeModulePkg.dsc
+    ACTIVE_PLATFORM       = OvmfPkg/OvmfPkgX64.dsc
     TOOL_CHAIN_TAG        = GCC5
 
 _Подсказка: если у вас не установлена gcc5, введите команду `sudo apt-get install gcc-5`_
