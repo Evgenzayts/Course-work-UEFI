@@ -13,7 +13,7 @@
 ### Инициализируем submodules
 
     bash$ cd ~/src/edk2
-    bash$ git submodule update --init  
+    bash$ git submodule update --init --recursive
     
 ### Скомпилируем инструменты для сборки
 
