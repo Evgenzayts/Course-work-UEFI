@@ -1,0 +1,9 @@
+-I/home/evgen/src/edk2/MdeModulePkg/Universal/Disk/RamDiskDxe
+-I/home/evgen/src/edk2/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/Disk/RamDiskDxe/RamDiskDxe/DEBUG
+-I/home/evgen/src/edk2/MdePkg
+-I/home/evgen/src/edk2/MdePkg/Include
+-I/home/evgen/src/edk2/MdePkg/Test/UnitTest/Include
+-I/home/evgen/src/edk2/MdePkg/Include/X64
+-I/home/evgen/src/edk2/MdeModulePkg
+-I/home/evgen/src/edk2/MdeModulePkg/Include
+-I/home/evgen/src/edk2/MdeModulePkg/Library/BrotliCustomDecompressLib/brotli/c/include
