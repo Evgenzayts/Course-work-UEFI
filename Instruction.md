@@ -89,10 +89,10 @@ OVMF — это основанный на EDK II проект, предоста�
 
 Чтобы запустить приложение из UEFI-Shell, нужно поместить project_name.efi в папку hda-contents:
 
-        cp ~/src/edk2/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.efi ~/run-ovmf/hda-contents/HelloWorld.efi
+        bash$ cp ~/src/edk2/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Application/HelloWorld/HelloWorld/DEBUG/HelloWorld.efi ~/run-ovmf/hda-contents/HelloWorld.efi
 
 Запускаем QEMU, переходим в раздел fs0 (`fs0:`). С помощью команды `ls` можно увидеть файлы в директории (_Например: HelloWorld.efi_). Далее запускаем приложение:
 
-        HelloWorld.efi
+        Shell/ HelloWorld.efi
         
 ## 4. Вывод карты памяти
