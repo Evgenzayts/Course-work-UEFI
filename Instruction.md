@@ -132,11 +132,11 @@ EFI_STATUS
 
 ```C
 typedef struct {
-    UINT32 Type;
+    UINT32               Type;
     EFI_PHYSICAL_ADDRESS PhysicalStart;
-    EFI_VIRTUAL_ADDRESS VirtualStart;
-    UINT64 NumberOfPages;
-    UINT64 Attribute;
+    EFI_VIRTUAL_ADDRESS  VirtualStart;
+    UINT64               NumberOfPages;
+    UINT64               Attribute;
 } EFI_MEMORY_DESCRIPTOR;
 ```
 ### 4.2 Вывод информации на экран
