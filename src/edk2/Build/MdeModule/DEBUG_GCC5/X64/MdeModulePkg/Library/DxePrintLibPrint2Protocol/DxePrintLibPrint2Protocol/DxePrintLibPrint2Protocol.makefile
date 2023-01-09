@@ -1,1 +1,0 @@
-/home/evgen/src/edk2/Build/MdeModule/DEBUG_GCC5/X64/MdeModulePkg/Library/DxePrintLibPrint2Protocol/DxePrintLibPrint2Protocol/GNUmakefile

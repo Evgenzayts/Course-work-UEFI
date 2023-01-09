@@ -1,1 +1,0 @@
-/home/evgen/src/edk2/Build/OvmfX64/DEBUG_GCC5/X64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/GNUmakefile
