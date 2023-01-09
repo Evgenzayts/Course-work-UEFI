@@ -254,7 +254,7 @@ uint32_t * const APIC_ICR_HIG = (void *) 0xfee00310;
 
 // INIT
 *APIC_ICR_HIG = (uint32_t) ap_apic_id << 24;	// ap_apic_id - номер процессора
-*APIC_ICR_LOW = 0x00000500;
+*APIC_ICR_LOW = 0x00000500;			// На процессоре с нулевым id работает UEFI
 
 for (volatile unsigned i = 0; i < 0xffffff; ++i) ;  // Задержка
 
