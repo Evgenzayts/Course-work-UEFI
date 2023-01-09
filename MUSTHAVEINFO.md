@@ -13,5 +13,5 @@
 2. https://wiki.osdev.org/APIC
 3. https://www.lab-z.com/mpscpu/
 4. https://uefi.org/specifications
-5. Документация EDK2 (https://github.com/tianocore/tianocore.github.io/wiki/EDK-II)
+5. https://github.com/tianocore/tianocore.github.io/wiki/EDK-II
 6. https://wikileaks.org/ciav7p1/cms/page_36896783.html
