@@ -174,3 +174,13 @@ EFI_STATUS
 *Registration Optional* - ключ регистрации (если NULL - игнорируется).
 
 *Interface* - возвращает указатель на интерфейс протокола.
+
+Далее необходимо получить информацию о процессорах  `EFI_PROCESSOR_INFORMATION` *`ProcessorInfo`* и вывести на экран следующую информацию:
+
+```C
+ProcessorInfo.ProcessorId, 
+ProcessorInfo.StatusFlag,
+ProcessorInfo.Location.Package,
+ProcessorInfo.Location.Core,
+ProcessorInfo.Location.Thread
+```
