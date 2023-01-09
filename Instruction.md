@@ -4,7 +4,7 @@
 
     bash$ sudo apt install build-essential uuid-dev iasl git  nasm  python-is-python3
     
-**Важно!** Проверьте, что `nasm` последней версии.
+**Важно!** `nasm` должен быть последней версии.
 
 ## 1. Работа с репозиторием
 
@@ -220,8 +220,8 @@ char example[] = "\x00\x00\x00\x00\x00\x00\x00\x00"
 ...
              
 if (gBS->AllocatePool(EfiBootServicesData,
-					  size,
-					  (void**) &example_entry) != EFI_SUCCESS)
+    size,
+    (void**) &example_entry) != EFI_SUCCESS)
 {
     Print(L"Error in allocate!\n");
     return EFI_SUCCESS;
