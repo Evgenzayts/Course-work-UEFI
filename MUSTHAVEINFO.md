@@ -6,7 +6,7 @@
 4. Запустить qemu командой qemu-system-x86_64 -pflash bios.bin -hda fat:rw:hda-contents -net none
 5. Ссылка на оригинальный гайд: https://github.com/tianocore/tianocore.github.io/wiki/How-to-run-OVMF
 
-*Примечание:* В директории run-ovmf/hda-contents находятся файлы .efi, которые можно запустить в UEFI.
+*Примечание:* Репозиторий содержит папку run-ovmf/hda-contents, в которой находятся файлы .efi. Их можно запустить, чтобы свериться с выводом.
 
 ## Где и что смотреть
 1. https://wiki.osdev.org/Symmetric_Multiprocessing
