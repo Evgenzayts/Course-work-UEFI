@@ -8,7 +8,7 @@
 
 *Примечание:* Репозиторий содержит папку run-ovmf/hda-contents, в которой находятся файлы .efi. Их можно запустить, чтобы свериться с выводом.
 
-## Где и что смотреть
+## Полезные ссылки
 1. https://wiki.osdev.org/Symmetric_Multiprocessing
 2. https://wiki.osdev.org/APIC
 3. https://www.lab-z.com/mpscpu/
