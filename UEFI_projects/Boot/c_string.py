@@ -1,4 +1,5 @@
 # Вспомогательный скрипт для перевода вывода xxd к виду Си-массива
+
 def get_bin():
     with open('bin.txt') as init:
         for line in init:
