@@ -187,7 +187,7 @@ ProcessorInfo.Location.Thread
 
 **Для получения данной информации следуется воспользоваться функциями `GetNumberOfProcessors` и `GetProcessorInfo`**
 
-_Пример_
+_Пример:_
 ![image](https://user-images.githubusercontent.com/72793414/211311767-ad19a733-8ef9-4f54-b1a8-88ba99d8f450.png)
 
 **Важно!** _Для запуска QEMU на несколько процессоров использовать опцию  -smp._
