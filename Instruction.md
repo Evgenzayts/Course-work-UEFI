@@ -230,3 +230,5 @@ if (gBS->AllocatePool(EfiBootServicesData,
 
 gBS->CopyMem(example_entry, example, sizeof(example) - 1);
 ```
+
+Передача управления происходит через APIC.
