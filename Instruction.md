@@ -175,7 +175,7 @@ EFI_STATUS
 
 *Interface* - возвращает указатель на интерфейс протокола.
 
-Далее необходимо получить информацию о процессорах  `EFI_PROCESSOR_INFORMATION` *`ProcessorInfo`* и вывести на экран следующую информацию:
+Далее необходимо получить информацию о процессорах  `EFI_PROCESSOR_INFORMATION` *`ProcessorInfo`* и вывести на экран количество процессоров и сведения о каждом из них:
 
 ```C
 ProcessorInfo.ProcessorId, 
@@ -184,3 +184,7 @@ ProcessorInfo.Location.Package,
 ProcessorInfo.Location.Core,
 ProcessorInfo.Location.Thread
 ```
+
+**Для получения данной информации следуется воспользоваться функциями `GetNumberOfProcessors` и `GetProcessorInfo`**
+
+![image](https://user-images.githubusercontent.com/72793414/211311767-ad19a733-8ef9-4f54-b1a8-88ba99d8f450.png)
