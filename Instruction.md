@@ -153,8 +153,24 @@ typedef struct {
 
 Для получения информации о процессорах необходимо использовать протокол MP_SERVICE протокол, функции которого находятся в библиотеке `Protocol/MpService.h`, и у которого есть зависимость `PiDxe.h`.
 
-Прежде всего требуется инициализировать протокол
+Прежде всего требуется инициализировать MpServiceProtocol с помощью функции LocateProtocol:
 
 ```C
+typedef
+EFI_STATUS
+(EFIAPI *EFI_LOCATE_PROTOCOL) (
+ IN EFI_GUID *Protocol,
+ IN VOID *Registration OPTIONAL,
+ OUT VOID **Interface
+ );
+ 
+...
+
  Status = gBS->LocateProtocol (&gEfiMpServiceProtocolGuid, NULL, (VOID**)&MP);
  ```
+Параметры:
+*Protocol* - протокол, требуемый для поиска.
+
+*Registration Optional* - ключ регистрации (если NULL - игнорируется).
+
+*Interface* - возвращает указатель на интерфейс протокола.
